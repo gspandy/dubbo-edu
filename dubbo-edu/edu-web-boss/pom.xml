@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>wusc.edu.demo</groupId>
+	<artifactId>edu-web-boss</artifactId>
+	<version>${edu-web-boss.version}</version>
+	<packaging>war</packaging>
+
+	<name>edu-demo</name>
+	<url>http://maven.apache.org</url>
+
+	<build>
+		<finalName>edu-web-boss</finalName>
+		<resources>
+			<resource>
+				<targetPath>${project.build.directory}/classes</targetPath>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>**/*.xml</include>
+					<include>**/*.properties</include>
+				</includes>
+			</resource>
+		</resources>
+	</build>
+
+	<dependencies>
+
+	
+
+	</dependencies>
+
+
+</project>
