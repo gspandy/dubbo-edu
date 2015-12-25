@@ -403,18 +403,6 @@
 			<scope>provided</scope>
 		</dependency>-->
 		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>servlet-api</artifactId>
-			<version>2.4</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>javax.servlet.jsp</groupId>
-			<artifactId>jsp-api</artifactId>
-			<version>2.0</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.freemarker</groupId>
 			<artifactId>freemarker</artifactId>
 			<version>2.3.19</version>
@@ -458,7 +446,11 @@
 			<version>1.7.3</version>
 		</dependency>
 
-
+		<dependency>
+			<groupId>wusc.edu.demo</groupId>
+			<artifactId>edu-facade-user</artifactId>
+			<version>${edu-facade-user.version}</version>
+		</dependency>
 	</dependencies>
 
 

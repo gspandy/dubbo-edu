@@ -6,7 +6,7 @@
 	<display-name>Demo</display-name>
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
-		<param-value>classpath:spring/spring-context.xml</param-value>
+		<param-value>classpath:spring/spring-context.xml,classpath:dubbo/dubbo-provider-*.xml</param-value>
 	</context-param>
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>

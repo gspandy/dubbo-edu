@@ -462,6 +462,11 @@
 		</dependency>
 
 
+		<dependency>
+			<groupId>wusc.edu.demo</groupId>
+			<artifactId>edu-facade-user</artifactId>
+			<version>${edu-facade-user.version}</version>
+		</dependency>
 	</dependencies>
 
 
