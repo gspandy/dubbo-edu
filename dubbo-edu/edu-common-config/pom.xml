@@ -8,24 +8,19 @@
 		<relativePath>../edu-common-parent</relativePath>
 	</parent>
 
-	<groupId>wusc.edu.demo</groupId>
-	<artifactId>edu-facade-user</artifactId>
-	<version>${edu-facade-user.version}</version>
+	<artifactId>edu-common-config</artifactId>
+	<version>${edu-common-config.version}</version>
 	<packaging>jar</packaging>
 
-	<name>edu-facade-user</name>
+	<name>edu-common-config</name>
 	<url>http://maven.apache.org</url>
 
 	<build>
-		<finalName>edu-facade-user</finalName>
+		<finalName>edu-common-config</finalName>
 	</build>
 
 	<dependencies>
-		<dependency>
-			<groupId>wusc.edu.common</groupId>
-			<artifactId>edu-common</artifactId>
-			<version>${edu-common.version}</version>
-		</dependency>
+
 	</dependencies>
 
 

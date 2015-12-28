@@ -2,6 +2,8 @@ package wusc.edu.facade.user.common.entity;
 
 import java.util.Date;
 
+import wusc.edu.common.entity.BaseEntity;
+
 
 /**
  * 权限管理-用户

@@ -12,7 +12,7 @@
 	<version>${edu-service-user.version}</version>
 	<packaging>war</packaging>
 
-	<name>edu-demo</name>
+	<name>edu-service-user</name>
 	<url>http://maven.apache.org</url>
 
 	<build>
@@ -450,6 +450,21 @@
 			<groupId>wusc.edu.demo</groupId>
 			<artifactId>edu-facade-user</artifactId>
 			<version>${edu-facade-user.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>wusc.edu.common</groupId>
+			<artifactId>edu-common</artifactId>
+			<version>${edu-common.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>wusc.edu.common</groupId>
+			<artifactId>edu-common-core</artifactId>
+			<version>${edu-common-core.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>wusc.edu.common</groupId>
+			<artifactId>edu-common-config</artifactId>
+			<version>${edu-common-config.version}</version>
 		</dependency>
 	</dependencies>
 

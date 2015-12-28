@@ -2,9 +2,9 @@ package wusc.edu.facade.user.service;
 
 import java.util.Map;
 
+import wusc.edu.common.page.PageBean;
+import wusc.edu.common.page.PageParam;
 import wusc.edu.facade.user.common.entity.PmsUser;
-import wusc.edu.facade.user.common.page.PageBean;
-import wusc.edu.facade.user.common.page.PageParam;
 
 /**
  * 

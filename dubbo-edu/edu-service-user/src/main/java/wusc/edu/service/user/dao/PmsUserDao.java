@@ -1,7 +1,7 @@
 package wusc.edu.service.user.dao;
 
+import wusc.edu.common.core.dao.BaseDao;
 import wusc.edu.facade.user.common.entity.PmsUser;
-import wusc.edu.service.user.common.core.dao.BaseDao;
 
 /**
  * 

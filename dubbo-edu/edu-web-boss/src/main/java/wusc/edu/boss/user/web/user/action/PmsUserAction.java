@@ -11,10 +11,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 
 import wusc.edu.boss.user.web.user.base.BaseAction;
+import wusc.edu.common.enums.UserStatusEnum;
+import wusc.edu.common.enums.UserTypeEnum;
+import wusc.edu.common.page.PageBean;
 import wusc.edu.facade.user.common.entity.PmsUser;
-import wusc.edu.facade.user.common.enums.UserStatusEnum;
-import wusc.edu.facade.user.common.enums.UserTypeEnum;
-import wusc.edu.facade.user.common.page.PageBean;
 import wusc.edu.facade.user.service.PmsUserBiz;
 
 

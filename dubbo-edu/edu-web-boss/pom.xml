@@ -14,7 +14,7 @@
 	<version>${edu-web-boss.version}</version>
 	<packaging>war</packaging>
 
-	<name>edu-demo</name>
+	<name>edu-web-boss</name>
 	<url>http://maven.apache.org</url>
 
 	<build>
@@ -466,6 +466,16 @@
 			<groupId>wusc.edu.demo</groupId>
 			<artifactId>edu-facade-user</artifactId>
 			<version>${edu-facade-user.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>wusc.edu.common</groupId>
+			<artifactId>edu-common</artifactId>
+			<version>${edu-common.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>wusc.edu.common</groupId>
+			<artifactId>edu-common-web</artifactId>
+			<version>${edu-common-web.version}</version>
 		</dependency>
 	</dependencies>
 
